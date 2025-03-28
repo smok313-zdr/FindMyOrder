@@ -7,6 +7,9 @@ FindMyOrder to aplikacja umożliwiająca identyfikację baretek Wojska Polskiego
 ### Działanie aplikacji
 
 Implementacja aplikacji została zrealizowana w środowisku Jupyter Notebook i jest dostępna w Google Colab. Na początku należy utworzyć strukturę katalogów – główny folder „baretki” wraz z niezbędnymi podfolderami – co realizuje pierwszy fragment kodu.
+
 TODO: Automatyczne pobieranie zdjęć do folderów z GitHub (przy użyciu wget/curl).
+
 Następnie należy uruchomić drugi fragment kodu, który buduje i trenuje model na podstawie danych wejściowych, jednocześnie weryfikując ich poprawność.
+
 Ostatnim krokiem jest dodanie do folderu „baretki” nowego zdjęcia, które posłuży do identyfikacji. Domyślnie zdjęcie powinno być zapisane jako `test.png`, jednak można to zmienić w zmiennej `img_path`. Kluczowe jest, aby na fotografii znajdowała się tylko jedna baretka – model dokona predykcji i wskaże, z jakim prawdopodobieństwem zaklasyfikował ją do konkretnej klasy.
