@@ -6,7 +6,9 @@ FindMyOrder to aplikacja umożliwiająca identyfikację baretek Wojska Polskiego
 
 ### Działanie aplikacji
 
-Implementacja aplikacji została zrealizowana w środowisku Jupyter Notebook i jest dostępna w Google Colab. Na początku należy utworzyć strukturę katalogów – główny folder „baretki” wraz z niezbędnymi podfolderami – co realizuje pierwszy fragment kodu.
+Implementacja aplikacji została zrealizowana w środowisku Jupyter Notebook i jest dostępna w Google Colab. 
+
+Na początku należy zaimportować z github całą strukturę katalogu „baretki” – co realizuje pierwszy fragment kodu. Obrazy znajdujące się w tej strukturze będą służyć jako dane treningowe dla modelu. Podany fragment kodu można wykonywać wielokrotnie, za każdym razem katalog "baretki" w Colab będzie nadpisywany.
 
 Następnie należy uruchomić drugi fragment kodu, który buduje i trenuje model na podstawie danych wejściowych, jednocześnie weryfikując ich poprawność.
 
