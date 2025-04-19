@@ -2,7 +2,7 @@
 
 ### Wprowadzenie
 
-FindMyOrder to aplikacja umożliwiająca identyfikację baretek Wojska Polskiego na podstawie zdjęć, wykorzystująca konwolucyjne sieci neuronowe (CNN). Do treningu modelu wykorzystano fotografie baretek pobrane z internetu oraz zdjęcia z mundurów żołnierzy Wojska Polskiego. Aby poprawić jakość predykcji nowych obrazów, zastosowano warstwę dropout (`keras.layers.Dropout`) jako technikę regularyzacji, która zapobiega nadmiernemu dopasowaniu modelu do danych uczących. Aplikacja potrafi rozpoznać nawet przyciemnione lub lekko wyblakłe baretki, osiągając skuteczność predykcji na poziomie około 99%. 
+FindMyOrder to aplikacja umożliwiająca identyfikację baretek Wojska Polskiego na podstawie zdjęć, wykorzystująca konwolucyjne sieci neuronowe (CNN). Do treningu modelu wykorzystano fotografie baretek pobrane z internetu oraz zdjęcia z mundurów żołnierzy Wojska Polskiego. Aby poprawić jakość predykcji nowych obrazów, zastosowano warstwę dropout (`keras.layers.Dropout`) jako technikę regularyzacji, która zapobiega nadmiernemu dopasowaniu modelu do danych uczących. Aplikacja potrafi rozpoznać nawet przyciemnione lub lekko wyblakłe baretki, osiągając skuteczność predykcji na poziomie około 95%. 
 
 ### Działanie aplikacji
 
